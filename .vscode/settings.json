@@ -1,0 +1,23 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#15b3c0",
+        "activityBar.background": "#15b3c0",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#fce2fa",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#15b3c0",
+        "statusBar.background": "#108892",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#15b3c0",
+        "statusBarItem.remoteBackground": "#108892",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#108892",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#10889299",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#108892",
+    "workbench.colorTheme": "Visual Studio Light"
+}
