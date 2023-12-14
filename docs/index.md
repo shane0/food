@@ -1,4 +1,9 @@
 
+[workflow](workflow.md){ .md-button }
+[projects](projects.md){ .md-button }
+[tasks](todo.md){ .md-button }
+[bujo](bujo/2023.md){ .md-button }
+
 ## food I'm growing or buying for friends
 
 - fuscia: for hummingbirds

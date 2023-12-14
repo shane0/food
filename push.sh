@@ -4,6 +4,7 @@
 
 function addcommitpush () {
   message=(\'"$@"\')
+  git pull
   current=$(git branch | grep "*" | cut -b 3-)
   # read -r -i "$current" -e branch
   remote=$(git remote -v | head -1 | cut -d ' ' -f 1 )
@@ -11,7 +12,8 @@ function addcommitpush () {
   read -r yn
   if [ "$yn" = y ]; then
     # echo "$current" "$remote"
-    git add -A && git commit -a -m "$message"
+    git add -A 
+    cz c
     git push origin "$current"
   else
     echo "nope"
